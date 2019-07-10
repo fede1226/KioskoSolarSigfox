@@ -1,0 +1,25 @@
+Maximo tamaño de mensaje 12 bytes.
+
+VARIABLES: -Temparatura.
+           -Humedad.
+           -Velocidad del viento.
+           -Irradiación.
+
+Ejemplo:
+VARIABLE                |   VALOR    |   Binario
+                        |            |
+-Temparatura.           |   19       |   00010011
+-Humedad.               |   33       |   00100001
+-Velocidad del viento.  |   120      |   01111000
+-Irradiación.           |   67       |   01000011
+
+Se concatenan los Bytes:
+                      
+         00010011001000010111100001000011
+
+Se convierte el número binario a hexagecimal:
+      
+         13217843
+
+
+
